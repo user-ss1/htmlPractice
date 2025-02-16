@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A well-structured HTML5 website with all elements">
+    <title>HTML Based Website</title>
+    <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/919/919827.png">
+</head>
+<body>
+    <header>
+        <h1 align="center">Practicing HTML – One Step at a Time!</h1>
+
+        <nav>
+            <p align="right">
+                <a href="#about">About</a> &nbsp;|&nbsp;
+                <a href="#services">Services</a> &nbsp;|&nbsp;
+                <a href="#media">Media</a> &nbsp;|&nbsp;
+                <a href="#contact">Contact</a> &nbsp;|&nbsp;
+                <a href="#table">Data</a>
+            </p>
+        </nav>
+        <p><strong>Tags used:</strong> header, h1, nav, p, a</p>
+        <hr>
+    </header>
+    
+    <main>
+        <section id="about">
+            <h2>About Us</h2>
+            <table border="1" width="80%" align="center">
+                <tr>
+                    <td width="20%" align="center">
+                        <img src="\video-chat-app-master\imgtag.png" alt="Sample Image" width="150">
+                    </td>
+                    <td>
+                        <p>This website demonstrates the usage of all HTML5 tags.</p>
+                        <p>We aim to provide a structured and meaningful representation of HTML elements.</p>
+                    </td>
+                </tr>
+            </table>
+            <p><strong>Tags used:</strong> section, h2, table, tr, td, img, p</p>
+            <hr>
+        </section>
+        
+        <section id="services">
+            <h2>Our Services</h2>
+            <details>
+                <summary>Click to see services</summary>
+                <p>We provide high-quality HTML5 development services.</p>
+            </details>
+            <p><strong>Tags used:</strong> section, h2, details, summary, p</p>
+            <hr>
+        </section>
+        
+        <section id="media">
+            <h2>Media Section</h2>
+            <center>
+                <audio controls>
+                    <source src="\video-chat-app-master\htmlprac\audio.mp3" type="audio/mp3">
+                    Your browser does not support the audio tag.
+                </audio>
+                <br>
+                <video width="560" height="315" controls>
+                    <source src="\video-chat-app-master\htmlprac\videotag.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </center>
+            <p><strong>Tags used:</strong> section, h2, center, audio, source, video, br</p>
+            <hr>
+        </section>
+        
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form align="center">
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <br><br>
+                    <button type="submit">Submit</button>
+                </fieldset>
+            </form>
+            <p><strong>Tags used:</strong> section, h2, form, fieldset, legend, label, input, button, br</p>
+            <hr>
+        </section>
+        
+        <section>
+            <h2>Embedding Content</h2>
+            <center>
+                <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345086167!2d144.9556513159169!3d-37.81721417975195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d43f408c5f1%3A0x9b0b64ffba6a4820!2sFederation%20Square!5e0!3m2!1sen!2sin!4v1615516142395!5m2!1sen!2sin" 
+    width="600" height="400" 
+    style="border:0;" 
+    allowfullscreen="" 
+    loading="lazy">
+</iframe>
+
+            
+               </center>
+            <p><strong>Tags used:</strong> section, h2, iframe, center</p>
+            <hr>
+        </section>
+        
+        <section id="table">
+            <h2 align="center">Sample Table</h2>
+            <center>
+                <table border="1" width="80%">
+                    <caption>Employee Details</caption>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Role</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr align="center">
+                            <td>1</td>
+                            <td>Alice</td>
+                            <td>Developer</td>
+                        </tr>
+                        <tr align="center">
+                            <td>2</td>
+                            <td>Bob</td>
+                            <td>Designer</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </center>
+            <p><strong>Tags used:</strong> section, h2, table, caption, thead, tbody, tr, th, td, center</p>
+            <hr>
+        </section>
+    </main>
+    
+    <footer>
+        <p><strong>Tags used:</strong> footer, p</p>
+        <p align="center">&copy; 2025 All Rights Reserved</p>
+       
+    </footer>
+</body>
+</html>
